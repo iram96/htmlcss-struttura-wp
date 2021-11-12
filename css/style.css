@@ -1,0 +1,78 @@
+
+/* Generics */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after{                         
+  display: table;
+  content: "";
+  clear: both;
+}
+
+body{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+  margin-top: 20px;
+  height: 100px;
+  background-color: rgb(240, 92, 136);
+}
+
+footer{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 50px;
+  background-color: rgb(175, 25, 130);
+}
+
+.box{
+  width: calc(100% - 40px);
+  margin: 40px auto;
+}
+
+.full{
+  background-color: blue;
+  height: 500px;
+}
+
+.empty{
+  background-color: goldenrod;
+  height: 400px;
+}
+
+.innerbox{
+  background-color: cadetblue;
+}
+
+.headline{
+  height: 100px;   
+}
+
+.lside{
+  float: left;
+  height: 350px;
+  width: 200px;
+  margin: 25px 25px;
+  margin-left: 0;
+}
+
+.rside{
+  float: right;
+  height: 350px;
+  width: 200px;
+  margin: 25px 25px;
+  margin-right: 0;
+}
+
+.central{
+  float: left;
+  height: 350px;
+  width: calc(370px + 170px + 170px);
+  margin: 25px auto;
+}
