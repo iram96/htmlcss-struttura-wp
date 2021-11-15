@@ -38,7 +38,6 @@ footer{
 
 .full{
   background-color: blue;
-  height: 500px;
 }
 
 .empty{
@@ -48,18 +47,36 @@ footer{
 
 .innerbox{
   background-color: cadetblue;
+  height: 350px;
+  float: left;
+  
 }
 
-.headline{
+.full .headline{
   height: 100px;   
+  width: 100%;
 }
 
-.lside{
+.side{
+  width: calc(25% - 20px);
+  margin: 20px 10px;
+}
+
+.central{
+  width: calc(50% - 20px);
+  margin: 20px 10px;
+}
+
+.row{
+  margin: 0 -10px;
+}
+/* .lside{
   float: left;
   height: 350px;
   width: 200px;
   margin: 25px 25px;
   margin-left: 0;
+  margin-bottom: 0;
 }
 
 .rside{
@@ -68,6 +85,7 @@ footer{
   width: 200px;
   margin: 25px 25px;
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 .central{
@@ -75,4 +93,5 @@ footer{
   height: 350px;
   width: calc(370px + 170px + 170px);
   margin: 25px auto;
-}
+  margin-bottom: 0;
+} */
